@@ -1,0 +1,22 @@
+How to create server
+
+--------------------
+1. login to AWS account
+2. go to Ec2
+3. click on instances
+4. click on launch instance
+5. Name and Tags : my web server name
+6. choose the operating system 
+7. Key pair{default}
+8. Network settings 
+   click on edit
+   change security group name and description
+9. click on launch instance
+10. go to instance 
+11. click on action
+12. click on monitor and troubleshoot
+13. click instance screenshot
+14. now open gitbash where pem file is located
+15. enter command "ssh -i (enter pem file name)(user name according to os which we use)@(ip address of the server){enter}
+16.click yes
+
